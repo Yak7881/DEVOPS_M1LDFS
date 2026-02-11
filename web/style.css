@@ -1,0 +1,294 @@
+/* =============================================================================
+   DevOps Rooms — Style
+   Mini page statique, lisible, moderne, sans framework.
+   ============================================================================= */
+
+/* --- Reset & Base --- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* --- Header --- */
+header {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border-bottom: 1px solid #1e293b;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #f1f5f9;
+}
+
+header .subtitle {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.header-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-links a {
+  background: #1e293b;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  border: 1px solid #334155;
+  transition: all 0.2s ease;
+}
+
+.header-links a:hover {
+  background: #334155;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+
+/* --- Main --- */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* --- Intro & Filters --- */
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #f1f5f9;
+}
+
+.intro p {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #94a3b8;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #334155;
+  color: #f1f5f9;
+}
+
+.filter-btn.active {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+
+.filter-btn.highlight {
+  border-color: #f59e0b;
+  color: #f59e0b;
+}
+
+.filter-btn.highlight:hover,
+.filter-btn.highlight.active {
+  background: #f59e0b;
+  color: #0f172a;
+  border-color: #f59e0b;
+}
+
+/* --- Rooms Grid --- */
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.room-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.room-card:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+}
+
+.room-card.starred:hover {
+  border-color: #f59e0b;
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.15);
+}
+
+.room-card.hidden {
+  display: none;
+}
+
+.room-number {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
+  background: #0f172a;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+
+.room-emoji {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+.room-card h3 {
+  font-size: 1.1rem;
+  color: #f1f5f9;
+}
+
+.room-card p {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  flex-grow: 1;
+}
+
+.room-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  background: #0f172a;
+  color: #64748b;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  align-self: flex-start;
+  margin-top: 0.3rem;
+}
+
+/* --- Resources --- */
+.resources {
+  margin-top: 1rem;
+}
+
+.resources h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  color: #f1f5f9;
+  text-align: center;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.resource-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  transition: all 0.2s ease;
+}
+
+.resource-card:hover {
+  border-color: #22d3ee;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(34, 211, 238, 0.1);
+}
+
+.resource-icon {
+  font-size: 1.5rem;
+}
+
+.resource-card strong {
+  color: #f1f5f9;
+  font-size: 0.95rem;
+}
+
+.resource-card p {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  color: #475569;
+  font-size: 0.85rem;
+  border-top: 1px solid #1e293b;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #64748b;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #94a3b8;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .rooms-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+}

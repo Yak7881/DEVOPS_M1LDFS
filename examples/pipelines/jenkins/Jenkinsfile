@@ -1,0 +1,103 @@
+// =============================================================================
+// 📘 Jenkinsfile — Pipeline Jenkins de démonstration
+// =============================================================================
+//
+// Ce fichier décrit un pipeline Jenkins simple avec 3 étapes (stages).
+// Jenkins lit ce fichier et exécute les étapes dans l'ordre.
+//
+// 💡 Tu n'as PAS besoin d'installer Jenkins pour comprendre ce fichier.
+//    Lis les commentaires, c'est un support d'apprentissage.
+//
+// Format : Groovy (un langage de programmation, pas YAML)
+// =============================================================================
+
+pipeline {
+    // "agent any" = exécuter sur n'importe quelle machine Jenkins disponible.
+    // C'est l'équivalent de "runs-on: ubuntu-latest" dans GitHub Actions.
+    agent any
+
+    // "stages" = la liste des étapes du pipeline, dans l'ordre.
+    stages {
+
+        // ---------------------------------------------------------------
+        // ÉTAPE 1 : Prepare (Préparation)
+        // ---------------------------------------------------------------
+        // But : récupérer le code et vérifier que l'environnement est prêt.
+        stage('Prepare') {
+            steps {
+                echo '🔧 Étape 1 : Préparation'
+                echo 'Récupération du code source...'
+
+                // "checkout scm" = récupérer le code du dépôt.
+                // C'est l'équivalent de "actions/checkout@v4" dans GitHub Actions.
+                checkout scm
+
+                echo 'Code récupéré avec succès.'
+            }
+        }
+
+        // ---------------------------------------------------------------
+        // ÉTAPE 2 : Check (Vérification)
+        // ---------------------------------------------------------------
+        // But : vérifier que le code est correct (tests, format, etc.)
+        stage('Check') {
+            steps {
+                echo '🔍 Étape 2 : Vérification'
+
+                // "sh" = exécuter une commande shell (comme "run" dans GitHub Actions)
+                sh 'echo "Vérification de la structure du projet..."'
+                sh 'test -f README.md && echo "✅ README.md trouvé" || echo "❌ README.md manquant"'
+                sh 'echo "Lancement des tests (simulé)..."'
+                sh 'echo "Tests OK — 0 erreur trouvée."'
+
+                echo 'Toutes les vérifications sont passées.'
+            }
+        }
+
+        // ---------------------------------------------------------------
+        // ÉTAPE 3 : Package (Empaquetage)
+        // ---------------------------------------------------------------
+        // But : préparer le livrable (ex : créer un ZIP, un conteneur, etc.)
+        stage('Package') {
+            steps {
+                echo '📦 Étape 3 : Empaquetage'
+
+                sh 'echo "Création du package de livraison (simulé)..."'
+                sh 'echo "Package créé : devops-rooms-v1.0.0.tar.gz"'
+
+                echo 'Pipeline terminé avec succès ! 🎉'
+            }
+        }
+    }
+
+    // "post" = actions à faire après le pipeline (succès ou échec)
+    post {
+        success {
+            echo '✅ Pipeline réussi — tout est bon !'
+        }
+        failure {
+            echo '❌ Pipeline échoué — vérifie les logs ci-dessus.'
+        }
+    }
+}
+
+// =============================================================================
+// 📌 RÉSUMÉ
+//
+// Ce Jenkinsfile fait 3 choses :
+// 1. Prepare : récupérer le code
+// 2. Check   : vérifier que tout est correct
+// 3. Package : préparer le livrable
+//
+// Si une étape échoue, le pipeline s'arrête et affiche un message d'erreur.
+//
+// 🔗 Comparaison avec GitHub Actions :
+//    - "agent any"    →  "runs-on: ubuntu-latest"
+//    - "stage"        →  une étape dans "steps"
+//    - "sh"           →  "run"
+//    - "checkout scm" →  "actions/checkout@v4"
+//
+// 🔗 Voir aussi :
+//    - examples/pipelines/explain/pipeline-step-by-step.md
+//    - docs/pipelines-cheatsheet.md
+// =============================================================================
