@@ -16,9 +16,9 @@ Coche au fur et à mesure. C'est **ton** carnet de route.
 ---
 
 ## Room 00 — Orientation
-- [ ] Lu le README
-- [ ] Checkpoint passé
-- Score : __ / 10
+- [X ] Lu le README
+- [X ] Checkpoint passé
+- Score : 10 / 10
 
 ## Room 01 — Contrôle de version
 - [ ] Lu le README
