@@ -1,12 +1,12 @@
-## 📝 Description
+## Description
 
 _Décris ce que cette PR fait en 1-3 phrases._
 
-## 🎯 Pourquoi
+## Pourquoi
 
 _Explique pourquoi ce changement est nécessaire. Lie l'issue si possible (ex : Fixes #42)._
 
-## ✅ Checklist
+## Checklist
 
 - [ ] J'ai testé mes modifications
 - [ ] Mes commits ont des messages clairs
@@ -14,16 +14,16 @@ _Explique pourquoi ce changement est nécessaire. Lie l'issue si possible (ex : 
 - [ ] Les liens internes fonctionnent
 - [ ] Pas de fichier inutile inclus
 
-## 📸 Captures (optionnel)
+## Captures (optionnel)
 
 _Ajoute des captures d'écran si c'est un changement visuel._
 
-## 🧪 Comment tester
+## Comment tester
 
 1. ...
 2. ...
 3. ...
 
-## ⚠️ Risques
+## Risques
 
 _Y a-t-il un risque ? (casser un lien, supprimer du contenu, etc.)_

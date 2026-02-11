@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 09 (Jenkins)
+# Missions — Room 09 (Jenkins)
 
 4 missions, 3 points chacune. Fais-les dans l'ordre.
 
@@ -63,7 +63,7 @@ stage('Notify') {
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -75,4 +75,4 @@ stage('Notify') {
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

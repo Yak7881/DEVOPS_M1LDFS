@@ -1,4 +1,4 @@
-# ✅ Checklist Pull Request
+# Checklist Pull Request
 
 Utilise cette checklist avant d'ouvrir une PR. Coche chaque case quand c'est fait.
 
@@ -42,8 +42,8 @@ Le titre ne s'affichait pas sur mobile (issue #12).
 
 - [ ] J'ai répondu aux commentaires du reviewer
 - [ ] J'ai corrigé les changements demandés
-- [ ] Le pipeline est vert ✅
+- [ ] Le pipeline est vert
 
 ---
 
-> 📖 Voir aussi : [team-workflow-0-to-merge.md](../../docs/team-workflow-0-to-merge.md)
+> Voir aussi : [team-workflow-0-to-merge.md](../../docs/team-workflow-0-to-merge.md)

@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 02 (Collaboration)
+# Missions — Room 02 (Collaboration)
 
 4 missions, 3 points chacune. Fais-les dans l'ordre.
 
@@ -30,7 +30,7 @@
 3. Commit : `git add .` puis `git commit -m "test: modification de la branche"`
 4. Push : `git push origin mon-test`
 
-> 💡 **Premier push ?** GitHub te demandera de te connecter. Si tu n'as pas encore configuré l'accès, lis la section "Se connecter à GitHub depuis le terminal" dans [docs/START-HERE.md](../../docs/START-HERE.md#5-se-connecter-à-github-depuis-le-terminal).
+> **Premier push ?** GitHub te demandera de te connecter. Si tu n'as pas encore configuré l'accès, lis la section "Se connecter à GitHub depuis le terminal" dans [docs/START-HERE.md](../../docs/START-HERE.md#5-se-connecter-à-github-depuis-le-terminal).
 
 **Validation :** Sur GitHub, tu vois ta branche `mon-test` apparaître dans le menu déroulant des branches.
 
@@ -72,7 +72,7 @@
    Contenu de ta branche conflit-test
    >>>>>>> conflit-test
    ```
-   La partie entre `<<<<<<< HEAD` et `=======` = ce qui est sur main.  
+   La partie entre `<<<<<<< HEAD` et `=======` = ce qui est sur main.
    La partie entre `=======` et `>>>>>>>` = ce qui est sur ta branche.
 8. Choisis la version à garder (ou combine les deux). **Supprime les lignes** `<<<<<<<`, `=======`, et `>>>>>>>`
 9. `git add .` puis `git commit -m "resolve: conflit résolu"`
@@ -81,7 +81,7 @@
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -93,4 +93,4 @@
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

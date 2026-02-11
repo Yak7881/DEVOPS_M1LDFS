@@ -1,28 +1,28 @@
-# 🚪 Room 06 — Testing (Tests)
+# Room 06 — Testing (Tests)
 
 Tu vas apprendre à **vérifier que ton code fonctionne comme prévu** avec des tests automatiques.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Les bases des tests : unitaires, intégration, assertions, test runner.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 Sans tests, les bugs arrivent en production. Les tests permettent de détecter les erreurs avant que les utilisateurs ne les voient.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Une fonction `add(a, b)` additionne deux nombres. Un test vérifie que `add(2, 3)` retourne `5`. Si quelqu'un casse la fonction, le test échoue → tu le vois tout de suite.
 
 ---
 
-## 📚 Les termes à connaître
+## Les termes à connaître
 
 | Terme | Définition courte |
 |-------|-------------------|
@@ -34,7 +34,7 @@ Une fonction `add(a, b)` additionne deux nombres. Un test vérifie que `add(2, 3
 
 ---
 
-## 💡 Exemple de test en pseudo-code
+## Exemple de test en pseudo-code
 
 ```text
 Fonction : add(a, b)
@@ -42,11 +42,11 @@ Fonction : add(a, b)
 
 Test : test_add
   résultat = add(2, 3)
-  assertion : résultat == 5   ✅ passé
+  assertion : résultat == 5   passé
 
 Test : test_add_negatif
   résultat = add(-1, 1)
-  assertion : résultat == 0   ✅ passé
+  assertion : résultat == 0   passé
 ```
 
 En vrai code (Python par exemple) :
@@ -64,16 +64,16 @@ def test_add_negatif():
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

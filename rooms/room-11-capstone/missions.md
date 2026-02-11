@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 11 (Capstone Project)
+# Missions — Room 11 (Capstone Project)
 
 6 missions, 3 points chacune = **18 points au total**. Fais-les dans l'ordre.
 
@@ -91,7 +91,7 @@
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -105,4 +105,4 @@
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

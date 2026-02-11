@@ -1,28 +1,28 @@
-# 🚪 Room 07 — Release (Livraison)
+# Room 07 — Release (Livraison)
 
 Tu vas apprendre à **livrer une version stable** de ton projet aux utilisateurs.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Comprendre les versions, les tags et les releases.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 Les utilisateurs ont besoin de versions stables, pas de simples commits. Une release (ex : v1.2.0) = un point de livraison clair et reproductible.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Tu publies la version **v1.2.0**. Les utilisateurs peuvent la télécharger. Ils savent quelle version ils ont. Si un bug apparaît, tu peux corriger et sortir v1.2.1.
 
 ---
 
-## 📚 Les termes à connaître
+## Les termes à connaître
 
 | Terme | Définition courte |
 |-------|-------------------|
@@ -33,7 +33,7 @@ Tu publies la version **v1.2.0**. Les utilisateurs peuvent la télécharger. Ils
 
 ---
 
-## 📖 Semantic versioning (major.minor.patch)
+## Semantic versioning (major.minor.patch)
 
 | Partie | Exemple | Quand l'incrémenter |
 |--------|---------|---------------------|
@@ -48,16 +48,16 @@ Tu publies la version **v1.2.0**. Les utilisateurs peuvent la télécharger. Ils
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

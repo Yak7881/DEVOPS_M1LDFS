@@ -1,28 +1,28 @@
-# 🚪 Room 04 — GitHub GUI (interface graphique)
+# Room 04 — GitHub GUI (interface graphique)
 
 Tu vas apprendre à utiliser **GitHub sans la ligne de commande** : tout se fait dans le navigateur.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Utiliser GitHub via l'interface web : créer des issues, des branches, des PR, consulter les pipelines.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 Beaucoup de développeurs utilisent l'interface web de GitHub au quotidien. C'est visuel, accessible et suffisant pour la plupart des tâches.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Tu crées une **issue** pour signaler un bug. Tu ouvres une **PR** pour proposer une correction. Tu vérifies l'onglet **Actions** pour voir si le pipeline passe. Tout depuis le navigateur.
 
 ---
 
-## 📚 Les fonctionnalités à connaître
+## Les fonctionnalités à connaître
 
 ### Issues (tickets)
 
@@ -60,7 +60,7 @@ Une **PR** = proposer un changement de code. On compare deux branches et on dema
 |------------|-------------|
 | **Actions** (menu gauche) | Voir tous les pipelines |
 | Une exécution (run) | Cliquer pour voir le détail |
-| **Checks** (dans une PR) | Voir si les pipelines passent (vert ✅ ou rouge ❌) |
+| **Checks** (dans une PR) | Voir si les pipelines passent (vert ou rouge) |
 | Logs | Dérouler chaque étape pour lire les messages |
 
 ---
@@ -98,23 +98,23 @@ Un **Project** = tableau type Kanban pour organiser les issues.
 
 ---
 
-## 📖 Documents complémentaires
+## Documents complémentaires
 
 - [ROADMAP](../../ROADMAP.md) — Parcours complet
 - [Room 03 — Travail en équipe](../room-03-team-workflow/README.md) — Rappel sur issues et PR
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

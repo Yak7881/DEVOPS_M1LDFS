@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 11 (Capstone Project)
+# Checkpoint — Room 11 (Capstone Project)
 
 Révision globale de tout le parcours. C'est le checkpoint final !
 
 ---
 
-## 📝 Mini-quiz (5 questions — révision de toutes les rooms)
+## Mini-quiz (5 questions — révision de toutes les rooms)
 
 **1.** **Git** : Quelle est la différence entre `git commit` et `git push` ?
 
@@ -17,7 +17,7 @@ Révision globale de tout le parcours. C'est le checkpoint final !
 **5.** **Release** : Que signifie le format de version v1.2.3 (semantic versioning) ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. `git commit` sauvegarde tes modifications en local. `git push` envoie tes commits vers le dépôt distant (ex : GitHub).
 2. Pour isoler ton travail sur main, éviter les conflits et permettre la revue de code via une PR avant fusion.
@@ -29,7 +29,7 @@ Révision globale de tout le parcours. C'est le checkpoint final !
 
 ---
 
-## 🎯 Mini-tâche (10 points)
+## Mini-tâche (10 points)
 
 **Objectif :** Partager ton projet Capstone terminé.
 
@@ -42,7 +42,7 @@ Révision globale de tout le parcours. C'est le checkpoint final !
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : **10 points** (ce checkpoint vaut plus !)
@@ -51,7 +51,7 @@ Révision globale de tout le parcours. C'est le checkpoint final !
 
 ---
 
-## 🏆 Félicitations !
+## Félicitations !
 
 Tu as terminé le parcours DevOps Rooms. Tu as vu :
 
@@ -65,8 +65,8 @@ Tu as terminé le parcours DevOps Rooms. Tu as vu :
 - Incident Response
 - Et un projet Capstone complet
 
-Continue à pratiquer et à construire des projets. Bonne chance ! 🎉
+Continue à pratiquer et à construire des projets. Bonne chance !
 
 ---
 
-> 🏆 **Félicitations !** Tu as terminé le parcours DevOps Rooms ! Retour au [README principal](../../README.md)
+> **Félicitations !** Tu as terminé le parcours DevOps Rooms ! Retour au [README principal](../../README.md)

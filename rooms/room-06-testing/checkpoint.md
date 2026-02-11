@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 06 (Testing)
+# Checkpoint — Room 06 (Testing)
 
 Valide tes acquis avant de passer à la Room 07.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** Quelle est la différence entre un test unitaire et un test d'intégration ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 07.
 **5.** Que signifie "couverture de tests" (test coverage) ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. Un test unitaire teste une seule fonction ou partie du code en isolation. Un test d'intégration teste plusieurs parties ensemble (ex : base de données + API).
 2. Une assertion est une vérification qui dit : « je m'attends à ce que le résultat soit égal à une valeur attendue ».
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 07.
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Écrire 3 cas de test (entrée / sortie attendue) pour une fonction qui calcule l'âge à partir de l'année de naissance.
 
@@ -52,7 +52,7 @@ Valide tes acquis avant de passer à la Room 07.
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -61,4 +61,4 @@ Valide tes acquis avant de passer à la Room 07.
 
 ---
 
-> 🎉 **Bravo !** Room suivante → [Room 07 — Release](../room-07-release/README.md)
+> **Bravo !** Room suivante → [Room 07 — Release](../room-07-release/README.md)

@@ -1,10 +1,10 @@
-# 🚪 DevOps Rooms
+# DevOps Rooms
 
 **Apprends le DevOps en explorant des salles. Pas de prérequis. Juste de la curiosité.**
 
 ---
 
-## 🎯 C'est quoi ce repo ?
+## C'est quoi ce repo ?
 
 Un parcours **gamifié** pour apprendre le DevOps depuis zéro.  
 Chaque **room** (salle) t'enseigne un concept, avec des missions, des points et des checkpoints.
@@ -15,19 +15,19 @@ Tu n'as besoin de rien installer. Tout se lit directement sur GitHub.
 
 ---
 
-## 🆘 Je n'y connais rien — par où commencer ?
+## Je n'y connais rien — par où commencer ?
 
 3 étapes, c'est tout :
 
-1. **Lis** 👉 [docs/START-HERE.md](docs/START-HERE.md)
-2. **Ouvre** la Room 00 👉 [rooms/room-00-orientation/](rooms/room-00-orientation/README.md)
+1. **Lis** [docs/START-HERE.md](docs/START-HERE.md)
+2. **Ouvre** la Room 00 [rooms/room-00-orientation/](rooms/room-00-orientation/README.md)
 3. **Suis les missions** une par une
 
 C'est parti. Pas besoin de plus.
 
 ---
 
-## 🗺️ Carte des Rooms
+## Carte des Rooms
 
 | #   | Room | Tu apprends… |
 |-----|------|-------------|
@@ -46,14 +46,14 @@ C'est parti. Pas besoin de plus.
 
 ---
 
-## ⏱️ Mode Atelier (60 min)
+## Mode Atelier (60 min)
 
 Tu as une heure ? Fais les rooms **00 à 05** dans l'ordre.  
 Tu auras couvert : Git, la collaboration, le travail en équipe, GitHub et les pipelines.
 
 ---
 
-## 📦 Ce que contient ce repo
+## Ce que contient ce repo
 
 | Fichier | Rôle |
 |---------|------|
@@ -65,7 +65,7 @@ Tu auras couvert : Git, la collaboration, le travail en équipe, GitHub et les p
 
 ---
 
-## 📚 Ressources
+## Ressources
 
 - [Glossaire](docs/glossary.md) — tous les mots techniques expliqués simplement
 - [Règles du jeu](docs/rules-of-the-game.md) — comment gagner des points
@@ -77,7 +77,7 @@ Tu auras couvert : Git, la collaboration, le travail en équipe, GitHub et les p
 
 ---
 
-## 🤝 Contribuer
+## Contribuer
 
 Ce repo est ouvert. Si tu trouves une erreur ou veux ajouter du contenu :
 
@@ -86,6 +86,6 @@ Ce repo est ouvert. Si tu trouves une erreur ou veux ajouter du contenu :
 
 ---
 
-## 📄 Licence
+## Licence
 
 [MIT](LICENSE) — libre d'utilisation, de modification et de partage.

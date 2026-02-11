@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 08 (Monitoring)
+# Missions — Room 08 (Monitoring)
 
 4 missions, 3 points chacune. Fais-les dans l'ordre.
 
@@ -84,7 +84,7 @@ Pour chaque panneau, indique :
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -96,4 +96,4 @@ Pour chaque panneau, indique :
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

@@ -1,4 +1,4 @@
-# 📏 Nommage des branches
+# Nommage des branches
 
 Convention pour nommer tes branches de manière claire.
 

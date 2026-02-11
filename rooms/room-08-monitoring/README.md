@@ -1,28 +1,28 @@
-# 🚪 Room 08 — Monitoring (Surveillance)
+# Room 08 — Monitoring (Surveillance)
 
 Tu vas apprendre à **surveiller ton application en production** pour détecter les problèmes tôt.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Surveiller ton application en production pour repérer les problèmes avant qu'ils ne s'aggravent.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 Sans surveillance, tu découvres les bugs quand les utilisateurs se plaignent. Avec du monitoring, tu vois les signaux d'alarme avant que le site ne tombe.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Un **dashboard** affiche le CPU à 95 %. Tu sais immédiatement qu'un problème existe. Tu peux investiguer avant que le site ne plante et que les utilisateurs soient impactés.
 
 ---
 
-## 📚 Les termes à connaître
+## Les termes à connaître
 
 | Terme | Définition courte |
 |-------|-------------------|
@@ -35,7 +35,7 @@ Un **dashboard** affiche le CPU à 95 %. Tu sais immédiatement qu'un problème 
 
 ---
 
-## 🛠️ Outils connus
+## Outils connus
 
 On te cite des noms pour que tu les connaisses. Pas besoin de les installer pour cette room.
 
@@ -44,16 +44,16 @@ On te cite des noms pour que tu les connaisses. Pas besoin de les installer pour
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

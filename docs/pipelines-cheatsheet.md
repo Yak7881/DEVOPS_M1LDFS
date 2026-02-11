@@ -1,4 +1,4 @@
-# 🧩 Cheatsheet Pipelines
+# Cheatsheet Pipelines
 
 Aide-mémoire rapide sur les pipelines CI/CD.
 
@@ -118,13 +118,13 @@ pipeline {
 | Format | YAML | Groovy |
 | Hébergement | GitHub (cloud) | Auto-hébergé (ton serveur) |
 | Gratuit ? | Oui (limites) | Oui (open source) |
-| Facilité | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+| Facilité | Très facile | Facile |
 
 ---
 
 ## Quand ça échoue ?
 
-Le pipeline s'arrête et affiche ❌.
+Le pipeline s'arrête et affiche une erreur.
 
 **Que faire :**
 1. Lis les **logs** (journaux) — ils disent quelle étape a échoué
@@ -142,4 +142,4 @@ Le pipeline s'arrête et affiche ❌.
 
 ---
 
-> 💡 Retour au [README principal](../README.md)
+> Retour au [README principal](../README.md)

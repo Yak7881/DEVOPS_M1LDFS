@@ -1,4 +1,4 @@
-# 🏁 Commence ici
+# Commence ici
 
 Bienvenue. Tu es au bon endroit.
 
@@ -17,10 +17,10 @@ En résumé : **écrire du code → le tester → le livrer → le surveiller**,
 Ce repo est organisé en **rooms** (salles).  
 Chaque room t'apprend **un concept**, avec :
 
-- 📖 Une explication courte
-- 🎯 Des missions à faire
-- ✅ Un checkpoint (mini-quiz + tâche)
-- ⭐ Des points à gagner
+- Une explication courte
+- Des missions à faire
+- Un checkpoint (mini-quiz + tâche)
+- Des points à gagner
 
 Tu avances à ton rythme. Pas de piège. Pas de prérequis.
 
@@ -39,15 +39,15 @@ Tu avances à ton rythme. Pas de piège. Pas de prérequis.
 
 | Outil | Obligatoire ? | Pourquoi |
 |-------|--------------|----------|
-| Un navigateur web | ✅ Oui | Pour lire les rooms sur GitHub |
-| Un compte GitHub | ✅ Oui (gratuit) | Pour faire les missions pratiques |
-| Git installé | 🔶 Recommandé | Pour les rooms 01+ (ligne de commande) |
-| Un éditeur de code | 🔶 Recommandé | VS Code, Notepad++, ou autre |
-| Jenkins | ❌ Non | On explique, pas besoin de l'installer |
+| Un navigateur web | Oui | Pour lire les rooms sur GitHub |
+| Un compte GitHub | Oui (gratuit) | Pour faire les missions pratiques |
+| Git installé | Recommandé | Pour les rooms 01+ (ligne de commande) |
+| Un éditeur de code | Recommandé | VS Code, Notepad++, ou autre |
+| Jenkins | Non | On explique, pas besoin de l'installer |
 
 ---
 
-## 🔧 Guide de préparation (5 min)
+## Guide de préparation (5 min)
 
 Si tu débutes complètement, fais ces étapes **une seule fois** avant de commencer les rooms.
 
@@ -101,8 +101,8 @@ Quand tu feras ton premier `git push` (envoyer du code vers GitHub), il te deman
 4. **Copie le token** (tu ne le reverras plus)
 5. Quand Git te demande un mot de passe, colle ce **token** (pas ton mot de passe GitHub)
 
-> 💡 Sur Windows, Git retient le token automatiquement après la première fois.  
-> 💡 Si c'est trop compliqué, pas de panique : les rooms 00 à 04 peuvent se faire **entièrement depuis le navigateur**, sans terminal.
+> Sur Windows, Git retient le token automatiquement après la première fois.  
+> Si c'est trop compliqué, pas de panique : les rooms 00 à 04 peuvent se faire **entièrement depuis le navigateur**, sans terminal.
 
 ---
 
@@ -122,4 +122,4 @@ Tu peux t'arrêter et reprendre quand tu veux.
 
 ---
 
-> 🎯 **Prêt ?** Ouvre la [Room 00 — Orientation](../rooms/room-00-orientation/README.md) et c'est parti !
+> **Prêt ?** Ouvre la [Room 00 — Orientation](../rooms/room-00-orientation/README.md) et c'est parti !

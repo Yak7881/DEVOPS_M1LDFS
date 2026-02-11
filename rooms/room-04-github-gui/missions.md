@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 04 (GitHub GUI)
+# Missions — Room 04 (GitHub GUI)
 
 5 missions, 3 points chacune. Fais-les dans l'ordre.
 
@@ -84,7 +84,7 @@
 
 1. Va sur un repo qui a des pipelines (ex : ce repo devops-rooms)
 2. Clique sur **Actions** dans le menu du repo
-3. Trouve une exécution (run) de pipeline — verte ✅ ou rouge ❌
+3. Trouve une exécution (run) de pipeline — verte ou rouge
 4. Clique sur une exécution pour l'ouvrir
 5. Clique sur un **job** (ex : "build" ou "test")
 6. Déroule une **étape** (step) et lis le log
@@ -93,7 +93,7 @@
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -106,4 +106,4 @@
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

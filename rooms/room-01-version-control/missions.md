@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 01 (Contrôle de version)
+# Missions — Room 01 (Contrôle de version)
 
 4 missions, 3 points chacune. Fais-les dans l'ordre.
 
@@ -14,7 +14,7 @@
 2. Ouvre un **terminal** dans ce dossier
    - **Windows** : clique droit dans le dossier → "Ouvrir dans le Terminal" (ou cherche "PowerShell" dans le menu démarrer, puis tape `cd chemin/vers/mon-projet`)
    - **Mac/Linux** : ouvre l'application "Terminal", puis tape `cd chemin/vers/mon-projet`
-   - 💡 Si tu n'as jamais utilisé un terminal, lis le [guide de préparation](../../docs/START-HERE.md#-guide-de-préparation-5-min)
+   - Si tu n'as jamais utilisé un terminal, lis le [guide de préparation](../../docs/START-HERE.md#guide-de-préparation-5-min)
 3. Tape la commande : `git init`
 
 **Validation :** Tu dois voir le message "Initialized empty Git repository". Un dossier `.git` est créé.
@@ -64,7 +64,7 @@
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -76,4 +76,4 @@
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

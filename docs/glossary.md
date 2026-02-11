@@ -1,4 +1,4 @@
-# 📖 Glossaire
+# Glossaire
 
 Tous les mots techniques utilisés dans ce parcours, expliqués simplement.  
 Classés par ordre alphabétique.
@@ -172,4 +172,4 @@ Un format de fichier simple pour écrire de la configuration. Utilisé par GitHu
 
 ---
 
-> 💡 Un mot manque ? Ouvre une [issue](https://github.com/ton-user/devops-rooms/issues) pour le signaler.
+> Un mot manque ? Ouvre une [issue](https://github.com/ton-user/devops-rooms/issues) pour le signaler.

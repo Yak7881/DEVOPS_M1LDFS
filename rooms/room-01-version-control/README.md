@@ -1,28 +1,28 @@
-# 🚪 Room 01 — Contrôle de version (Git)
+# Room 01 — Contrôle de version (Git)
 
 Bienvenue dans ta première vraie room technique ! Tu vas apprendre à **sauvegarder et suivre ton code avec Git**.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Comment sauvegarder et suivre ton code avec Git.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 Pour ne jamais perdre ton travail et pouvoir revenir en arrière à tout moment.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Tu as modifié un fichier et tout est cassé. Sans Git, tu es bloqué. **Avec Git**, tu peux revenir à la version qui marchait en une commande.
 
 ---
 
-## 📚 Les termes à connaître
+## Les termes à connaître
 
 | Terme | Définition courte |
 |-------|-------------------|
@@ -36,16 +36,16 @@ Pour les définitions complètes : [glossaire](../../docs/glossary.md).
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

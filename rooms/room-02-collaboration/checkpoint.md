@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 02 (Collaboration)
+# Checkpoint — Room 02 (Collaboration)
 
 Valide tes acquis avant de passer à la Room 03.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** Quelle commande permet de copier un dépôt GitHub sur ton ordinateur ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 03.
 **5.** Quelle commande envoie tes commits vers GitHub ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. `git clone <URL>` — copie un dépôt distant sur ton ordinateur.
 2. **Clone** : copier un dépôt GitHub sur ton ordinateur. **Fork** : copier le dépôt de quelqu'un d'autre sur ton propre compte GitHub, pour le modifier sans toucher à l'original.
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 03.
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Fork un dépôt public, fais une modification, ouvre une PR.
 
@@ -47,7 +47,7 @@ Valide tes acquis avant de passer à la Room 03.
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -56,4 +56,4 @@ Valide tes acquis avant de passer à la Room 03.
 
 ---
 
-> 🎉 **Bravo !** Tu peux passer à la [Room 03 — Travail en équipe](../room-03-team-workflow/README.md).
+> **Bravo !** Tu peux passer à la [Room 03 — Travail en équipe](../room-03-team-workflow/README.md).

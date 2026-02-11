@@ -1,4 +1,4 @@
-# 📝 Messages de commit
+# Messages de commit
 
 Comment écrire des messages de commit clairs et utiles.
 
@@ -34,7 +34,7 @@ Comment écrire des messages de commit clairs et utiles.
 
 ---
 
-## ✅ 5 bons exemples
+## 5 bons exemples
 
 ```
 fix: corriger l'affichage du titre sur la page d'accueil
@@ -54,9 +54,9 @@ test: ajouter un test pour la fonction de calcul du prix
 
 ---
 
-## ❌ 5 mauvais exemples → corrigés
+## Mauvais exemples — corrigés
 
-| ❌ Mauvais | Pourquoi c'est mauvais | ✅ Corrigé |
+| Mauvais | Pourquoi c'est mauvais | Corrigé |
 |-----------|----------------------|-----------|
 | `modif` | Trop vague. Quoi comme modif ? | `fix: corriger le lien cassé dans le footer` |
 | `WIP` | Ne dit rien. Travail en cours de quoi ? | `feat: ajouter le menu de navigation (en cours)` |
@@ -66,7 +66,7 @@ test: ajouter un test pour la fonction de calcul du prix
 
 ---
 
-## 💡 Astuce
+## Astuce
 
 Avant de committer, pose-toi cette question :
 
@@ -76,4 +76,4 @@ Si la réponse est non, réécris-le.
 
 ---
 
-> 🔗 Voir aussi : [Nommage des branches](branch-naming.md) | [Checklist PR](pr-checklist.md)
+> Voir aussi : [Nommage des branches](branch-naming.md) | [Checklist PR](pr-checklist.md)

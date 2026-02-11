@@ -1,28 +1,28 @@
-# 🚪 Room 10 — Incident Response (Réagir quand ça casse)
+# Room 10 — Incident Response (Réagir quand ça casse)
 
 Tu vas apprendre à **réagir quand quelque chose casse en production**.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Réagir de manière structurée quand un incident survient en production.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 Les incidents arrivent à tout le monde. Être préparé réduit la durée de l'incident et les dégâts.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Le site est down. L'équipe suit une **checklist** : identifier le problème, communiquer, corriger, documenter. Le site revient en ligne plus vite et on évite la panique.
 
 ---
 
-## 📚 Les termes à connaître
+## Les termes à connaître
 
 | Terme | Définition courte |
 |-------|-------------------|
@@ -34,7 +34,7 @@ Le site est down. L'équipe suit une **checklist** : identifier le problème, co
 
 ---
 
-## 📖 Flux simple de réponse à un incident
+## Flux simple de réponse à un incident
 
 ```
 ┌─────────────────┐
@@ -60,16 +60,16 @@ Le site est down. L'équipe suit une **checklist** : identifier le problème, co
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

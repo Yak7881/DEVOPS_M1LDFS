@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 05 (Pipelines CI/CD)
+# Missions — Room 05 (Pipelines CI/CD)
 
 4 missions, 3 points chacune. Fais-les dans l'ordre.
 
@@ -58,14 +58,14 @@
 
 1. Va sur le repo devops-rooms (sur GitHub)
 2. Clique sur **Actions** dans le menu
-3. Trouve une exécution (run) de pipeline — verte ✅ ou rouge ❌
+3. Trouve une exécution (run) de pipeline — verte ou rouge
 4. Clique dessus et regarde les jobs et les logs
 
 **Validation :** Tu as ouvert une exécution et compris comment lire le résultat (vert/rouge).
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -77,4 +77,4 @@
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

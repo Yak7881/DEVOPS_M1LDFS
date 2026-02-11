@@ -1,10 +1,10 @@
-# ⭐ Système de Score
+# Système de Score
 
 Chaque room te rapporte des points. Accumule-les pour débloquer un badge.
 
 ---
 
-## 📏 Barème par room
+## Barème par room
 
 | Action | Points |
 |--------|--------|
@@ -15,7 +15,7 @@ Chaque room te rapporte des points. Accumule-les pour débloquer un badge.
 
 ---
 
-## 📊 Points par room (estimation)
+## Points par room (estimation)
 
 | Room | Lecture | Missions | Quiz | Tâche | Total max |
 |------|---------|----------|------|-------|-----------|
@@ -36,20 +36,20 @@ Chaque room te rapporte des points. Accumule-les pour débloquer un badge.
 
 ---
 
-## 🎖️ Badges
+## Badges
 
 | Score | Badge | Signification |
 |-------|-------|---------------|
-| 0-50 | 🌱 Pousse verte | Tu as commencé, c'est déjà bien |
-| 51-100 | 🔧 Bricoleur | Tu sais utiliser les outils de base |
-| 101-150 | 🚀 Lancé | Tu comprends le workflow DevOps |
-| 151-200 | ⭐ Solide | Tu es à l'aise avec les concepts clés |
-| 201-250 | 🏆 Pro | Tu maîtrises la plupart des rooms |
-| 251-288 | 🎯 Expert Rooms | Tu as tout compris. Bravo ! |
+| 0-50 | Pousse verte | Tu as commencé, c'est déjà bien |
+| 51-100 | Bricoleur | Tu sais utiliser les outils de base |
+| 101-150 | Lancé | Tu comprends le workflow DevOps |
+| 151-200 | Solide | Tu es à l'aise avec les concepts clés |
+| 201-250 | Pro | Tu maîtrises la plupart des rooms |
+| 251-288 | Expert Rooms | Tu as tout compris. Bravo ! |
 
 ---
 
-## 📝 Comment noter ton score
+## Comment noter ton score
 
 1. Ouvre [PROGRESS.md](../PROGRESS.md)
 2. Après chaque room, note ton score
@@ -57,4 +57,4 @@ Chaque room te rapporte des points. Accumule-les pour débloquer un badge.
 
 ---
 
-> 🎯 L'objectif n'est pas d'avoir le score maximum, mais de **comprendre**. Si tu comprends, les points suivront.
+> L'objectif n'est pas d'avoir le score maximum, mais de **comprendre**. Si tu comprends, les points suivront.

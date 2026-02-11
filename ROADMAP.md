@@ -1,10 +1,10 @@
-# 🗺️ Roadmap — DevOps Rooms
+# Roadmap — DevOps Rooms
 
 Ce qui est fait, ce qui arrive.
 
 ---
 
-## ✅ Fait
+## Fait
 
 - [x] 12 rooms complètes (00 à 11)
 - [x] Glossaire complet
@@ -18,7 +18,7 @@ Ce qui est fait, ce qui arrive.
 
 ---
 
-## 🔜 Prévu
+## Prévu
 
 - [ ] Room bonus : Docker (conteneurs pour débutants)
 - [ ] Room bonus : Infrastructure as Code (Terraform simplifié)
@@ -29,7 +29,7 @@ Ce qui est fait, ce qui arrive.
 
 ---
 
-## 💡 Idées (non confirmées)
+## Idées (non confirmées)
 
 - Mode "speed run" : parcourir tout en 30 min
 - Parcours par rôle : "Je suis dev", "Je suis ops", "Je suis QA"

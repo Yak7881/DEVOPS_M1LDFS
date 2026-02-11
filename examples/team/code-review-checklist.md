@@ -1,4 +1,4 @@
-# 🔍 Checklist — Revue de code
+# Checklist — Revue de code
 
 En tant que reviewer, utilise cette checklist pour relire une PR.
 
@@ -29,6 +29,6 @@ En tant que reviewer, utilise cette checklist pour relire une PR.
 
 ## Feedback
 
-- ✅ **Approve** : tout est bon
-- 💬 **Comment** : question ou suggestion
-- 🔄 **Request changes** : correction nécessaire
+- **Approve** : tout est bon
+- **Comment** : question ou suggestion
+- **Request changes** : correction nécessaire

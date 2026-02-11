@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 10 (Incident Response)
+# Checkpoint — Room 10 (Incident Response)
 
 Valide tes acquis avant de passer à la Room 11 (Capstone).
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** Qu'est-ce qu'un **incident** dans le contexte DevOps ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 11 (Capstone).
 **5.** Quel est l'intérêt d'avoir une **checklist** de réponse aux incidents ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. Un incident est un événement non prévu qui impacte le service en production (ex : site down, erreurs en masse).
 2. Critical = tout est cassé, gros impact. Minor = petit souci, impact limité.
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 11 (Capstone).
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Rédiger un postmortem pour un incident fictif.
 
@@ -61,7 +61,7 @@ Valide tes acquis avant de passer à la Room 11 (Capstone).
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -70,4 +70,4 @@ Valide tes acquis avant de passer à la Room 11 (Capstone).
 
 ---
 
-> 🎉 **Bravo !** Room suivante → [Room 11 — Projet final](../room-11-capstone/README.md)
+> **Bravo !** Room suivante → [Room 11 — Projet final](../room-11-capstone/README.md)

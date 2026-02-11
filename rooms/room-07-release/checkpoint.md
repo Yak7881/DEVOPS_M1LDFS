@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 07 (Release)
+# Checkpoint — Room 07 (Release)
 
 Valide tes acquis avant de passer à la Room 08.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** Que signifient les trois nombres dans un semantic versioning (ex : 1.2.3) ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 08.
 **5.** Quelle commande Git permet de créer un tag local ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. major.minor.patch : major = changements incompatibles, minor = nouvelles fonctionnalités compatibles, patch = corrections de bugs.
 2. On incrémente le major quand on fait des changements incompatibles (breaking changes) qui cassent la compatibilité.
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 08.
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Rédiger une entrée de changelog pour la version **v1.3.0** avec 2 fonctionnalités et 1 correction.
 
@@ -56,7 +56,7 @@ Valide tes acquis avant de passer à la Room 08.
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -65,4 +65,4 @@ Valide tes acquis avant de passer à la Room 08.
 
 ---
 
-> 🎉 **Bravo !** Room suivante → [Room 08 — Monitoring](../room-08-monitoring/README.md)
+> **Bravo !** Room suivante → [Room 08 — Monitoring](../room-08-monitoring/README.md)

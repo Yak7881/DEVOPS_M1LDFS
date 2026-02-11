@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 04 (GitHub GUI)
+# Checkpoint — Room 04 (GitHub GUI)
 
 Valide tes acquis avant de passer à la Room 05.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** Où cliques-tu pour créer une nouvelle issue sur GitHub ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 05.
 **5.** Comment créer une branche depuis l'interface web sans utiliser Git en ligne de commande ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. Dans l'onglet **Issues**, clique sur le bouton vert **New issue**.
 2. **base** = branche cible (ex : `main`). **compare** = ta branche (celle que tu veux fusionner).
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 05.
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Créer une issue **et** une Pull Request sur ton propre fork de ce repo.
 
@@ -45,7 +45,7 @@ Valide tes acquis avant de passer à la Room 05.
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -54,4 +54,4 @@ Valide tes acquis avant de passer à la Room 05.
 
 ---
 
-> 🎉 **Bravo !** Tu peux passer à la room suivante → [Room 05 — Pipelines CI/CD](../room-05-pipelines/README.md)
+> **Bravo !** Tu peux passer à la room suivante → [Room 05 — Pipelines CI/CD](../room-05-pipelines/README.md)

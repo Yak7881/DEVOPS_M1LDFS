@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 08 (Monitoring)
+# Checkpoint — Room 08 (Monitoring)
 
 Valide tes acquis avant de passer à la Room 09.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** À quoi sert le **monitoring** en production ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 09.
 **5.** Que signifie **uptime** (ex : 99,9 %) ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. Le monitoring sert à surveiller l'état de ton application en production (CPU, mémoire, etc.) pour détecter les problèmes tôt.
 2. Un log est un historique des événements (erreurs, requêtes). Une métrique est une donnée mesurable chiffrée (temps de réponse, nombre de requêtes).
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 09.
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Écrire **3 règles d'alerte** pour un site e-commerce fictif.
 
@@ -48,7 +48,7 @@ Valide tes acquis avant de passer à la Room 09.
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -57,4 +57,4 @@ Valide tes acquis avant de passer à la Room 09.
 
 ---
 
-> 🎉 **Bravo !** Room suivante → [Room 09 — Jenkins](../room-09-jenkins/README.md)
+> **Bravo !** Room suivante → [Room 09 — Jenkins](../room-09-jenkins/README.md)

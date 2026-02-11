@@ -1,10 +1,10 @@
-# 🔄 De 0 à PR mergée
+# De 0 à PR mergée
 
 **Comment les développeurs poussent leur travail, étape par étape.**
 
 ---
 
-## 🎬 Le scénario
+## Le scénario
 
 Tu es dans une équipe. On t'a assigné une tâche :
 
@@ -14,7 +14,7 @@ Voici **exactement** ce que tu fais, du début à la fin.
 
 ---
 
-## 📋 Les 8 étapes
+## Les 8 étapes
 
 ### Étape 1 — Prendre une issue
 
@@ -24,7 +24,7 @@ Une **issue**, c'est un ticket qui décrit une tâche à faire.
 - Trouve ton issue (ex : "Bug: le titre ne s'affiche pas")
 - Assigne-toi dessus (clique "assign yourself")
 
-> 💡 L'issue, c'est ta feuille de route. Elle dit quoi faire.
+> L'issue, c'est ta feuille de route. Elle dit quoi faire.
 
 ---
 
@@ -43,7 +43,7 @@ git checkout -b fix/bug-titre-accueil
 3. Tape le nom de ta branche : `fix/bug-titre-accueil`
 4. Clique "Create branch"
 
-> 📏 Règle de nommage : `fix/description-courte`, `feature/description-courte`, `chore/description-courte`
+> Règle de nommage : `fix/description-courte`, `feature/description-courte`, `chore/description-courte`
 > Voir [branch-naming.md](../examples/team/branch-naming.md)
 
 ---
@@ -66,7 +66,7 @@ git commit -m "fix: corriger l'affichage du titre sur la page d'accueil"
 4. En bas, écris ton message de commit
 5. Clique "Commit changes"
 
-> 📏 Bon message de commit : court, commence par un verbe. Voir [commit-messages.md](../examples/team/commit-messages.md)
+> Bon message de commit : court, commence par un verbe. Voir [commit-messages.md](../examples/team/commit-messages.md)
 
 ---
 
@@ -95,16 +95,16 @@ Une **Pull Request**, c'est une demande pour fusionner ta branche dans `main`.
 4. Remplis le titre et la description
 5. Clique "Create pull request"
 
-> 📏 Utilise la checklist PR → voir [pr-checklist.md](../examples/team/pr-checklist.md)
+> Utilise la checklist PR → voir [pr-checklist.md](../examples/team/pr-checklist.md)
 
 ---
 
 ### Étape 6 — Répondre à la review
 
 Un coéquipier (le **reviewer**) relit ton code et peut :
-- ✅ **Approuver** : tout est bon
-- 💬 **Commenter** : poser une question
-- 🔄 **Demander des changements** : quelque chose à corriger
+- **Approuver** : tout est bon
+- **Commenter** : poser une question
+- **Demander des changements** : quelque chose à corriger
 
 **Si on te demande un changement :**
 1. Corrige dans ta branche
@@ -116,13 +116,13 @@ Un coéquipier (le **reviewer**) relit ton code et peut :
 
 ### Étape 7 — Merge
 
-Quand la review est approuvée et que le pipeline est vert ✅ :
+Quand la review est approuvée et que le pipeline est vert :
 
 1. Clique "Merge pull request" sur GitHub
 2. Confirme
-3. Ta branche est fusionnée dans `main` 🎉
+3. Ta branche est fusionnée dans `main`
 
-> 🗑️ Tu peux supprimer ta branche après le merge (GitHub te le propose).
+> Tu peux supprimer ta branche après le merge (GitHub te le propose).
 
 ---
 
@@ -130,14 +130,14 @@ Quand la review est approuvée et que le pipeline est vert ✅ :
 
 Après le merge, le **pipeline CI/CD** se lance automatiquement sur `main`.
 
-Il vérifie que tout fonctionne encore. Si c'est vert ✅ : tout va bien.  
-Si c'est rouge ❌ : il y a un problème à corriger vite.
+Il vérifie que tout fonctionne encore. Si c'est vert : tout va bien.  
+Si c'est rouge : il y a un problème à corriger vite.
 
 > Voir [pipelines-cheatsheet.md](pipelines-cheatsheet.md) pour comprendre les pipelines.
 
 ---
 
-## 🖼️ Résumé visuel
+## Résumé visuel
 
 ```
 Issue assignée
@@ -152,14 +152,14 @@ Ouvrir une PR
     ↓
 Review → Corrections → Re-review
     ↓
-Merge ✅
+Merge
     ↓
-Pipeline valide 🟢
+Pipeline valide
 ```
 
 ---
 
-## 📋 Commandes résumées (ligne de commande)
+## Commandes résumées (ligne de commande)
 
 ```bash
 # 1. Créer une branche
@@ -181,7 +181,7 @@ git pull
 
 ---
 
-## 🔗 Liens utiles
+## Liens utiles
 
 - [Nommage de branches](../examples/team/branch-naming.md)
 - [Messages de commit](../examples/team/commit-messages.md)
@@ -192,4 +192,4 @@ git pull
 
 ---
 
-> 🎯 Retour au [README principal](../README.md)
+> Retour au [README principal](../README.md)

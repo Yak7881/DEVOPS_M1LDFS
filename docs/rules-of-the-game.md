@@ -1,16 +1,16 @@
-# 🧩 Règles du jeu
+# Règles du jeu
 
 Ce parcours est un jeu. Voici les règles.
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Traverser toutes les rooms, faire les missions, passer les checkpoints, et accumuler des points pour obtenir un badge.
 
 ---
 
-## 📏 Les règles
+## Les règles
 
 ### 1. Suis l'ordre des rooms
 Les rooms sont numérotées de 00 à 11. Fais-les dans l'ordre.  
@@ -38,7 +38,7 @@ Note ton score à chaque checkpoint.
 
 ---
 
-## ⭐ Système de points
+## Système de points
 
 Chaque room rapporte des points.  
 Détail complet dans [scoring.md](scoring.md).
@@ -52,10 +52,10 @@ Détail complet dans [scoring.md](scoring.md).
 
 ---
 
-## 🎖️ Badges
+## Badges
 
 Ton score total détermine ton badge. Voir [scoring.md](scoring.md).
 
 ---
 
-> 🚪 Prêt ? Va à la [Room 00](../rooms/room-00-orientation/README.md).
+> Prêt ? Va à la [Room 00](../rooms/room-00-orientation/README.md).

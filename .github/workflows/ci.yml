@@ -1,6 +1,6 @@
 name: CI — DevOps Rooms
 
-# 🔄 Ce pipeline se lance automatiquement sur chaque push et chaque pull request.
+# Ce pipeline se lance automatiquement sur chaque push et chaque pull request.
 # Il vérifie que le repo est bien structuré et que le contenu est correct.
 
 on:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   check-structure:
-    name: "🏗️ Vérifier la structure du repo"
+    name: "Vérifier la structure du repo"
     runs-on: ubuntu-latest
 
     steps:
@@ -43,20 +43,20 @@ jobs:
 
           for f in "${FILES[@]}"; do
             if [ -f "$f" ]; then
-              echo "✅ $f"
+              echo "$f"
             else
-              echo "❌ MANQUANT: $f"
+              echo "MANQUANT: $f"
               MISSING=$((MISSING + 1))
             fi
           done
 
           if [ $MISSING -gt 0 ]; then
             echo ""
-            echo "🚨 $MISSING fichier(s) manquant(s) !"
+            echo "$MISSING fichier(s) manquant(s) !"
             exit 1
           else
             echo ""
-            echo "🎉 Tous les fichiers obligatoires sont présents."
+            echo "Tous les fichiers obligatoires sont présents."
           fi
 
       # Étape 3 : Vérifier que toutes les rooms existent
@@ -82,20 +82,20 @@ jobs:
 
           for room in "${ROOMS[@]}"; do
             if [ -f "$room/README.md" ]; then
-              echo "✅ $room/README.md"
+              echo "$room/README.md"
             else
-              echo "❌ MANQUANT: $room/README.md"
+              echo "MANQUANT: $room/README.md"
               MISSING=$((MISSING + 1))
             fi
           done
 
           if [ $MISSING -gt 0 ]; then
             echo ""
-            echo "🚨 $MISSING room(s) sans README !"
+            echo "$MISSING room(s) sans README !"
             exit 1
           else
             echo ""
-            echo "🎉 Toutes les rooms ont leur README."
+            echo "Toutes les rooms ont leur README."
           fi
 
       # Étape 4 : Vérifier le format markdown (pas de tabulations, fichiers non vides)
@@ -107,22 +107,22 @@ jobs:
           # Vérifier que les fichiers .md ne sont pas vides
           for f in $(find . -name "*.md" -not -path "./.git/*"); do
             if [ ! -s "$f" ]; then
-              echo "❌ VIDE: $f"
+              echo "VIDE: $f"
               ERRORS=$((ERRORS + 1))
             fi
           done
 
           # Vérifier le nombre total de fichiers markdown
           COUNT=$(find . -name "*.md" -not -path "./.git/*" | wc -l)
-          echo "📄 $COUNT fichiers markdown trouvés."
+          echo "$COUNT fichiers markdown trouvés."
 
           if [ $ERRORS -gt 0 ]; then
             echo ""
-            echo "🚨 $ERRORS fichier(s) markdown vide(s) !"
+            echo "$ERRORS fichier(s) markdown vide(s) !"
             exit 1
           else
             echo ""
-            echo "🎉 Tous les fichiers markdown ont du contenu."
+            echo "Tous les fichiers markdown ont du contenu."
           fi
 
       # Étape 5 : Vérifier les liens internes markdown
@@ -144,7 +144,7 @@ jobs:
               if [ -n "$CLEAN" ]; then
                 TARGET="$DIR/$CLEAN"
                 if [ ! -e "$TARGET" ]; then
-                  echo "⚠️  Lien cassé dans $mdfile → $link"
+                  echo "Lien cassé dans $mdfile → $link"
                   BROKEN=$((BROKEN + 1))
                 fi
               fi
@@ -153,9 +153,9 @@ jobs:
 
           if [ $BROKEN -gt 0 ]; then
             echo ""
-            echo "⚠️  $BROKEN lien(s) potentiellement cassé(s)."
+            echo "$BROKEN lien(s) potentiellement cassé(s)."
             echo "Vérifiez manuellement — certains peuvent être des ancres valides."
           else
             echo ""
-            echo "🎉 Aucun lien cassé détecté."
+            echo "Aucun lien cassé détecté."
           fi

@@ -1,4 +1,4 @@
-# 🎯 Missions — Room 07 (Release)
+# Missions — Room 07 (Release)
 
 4 missions, 3 points chacune. Fais-les dans l'ordre.
 
@@ -80,7 +80,7 @@
 
 ---
 
-## 📊 Score missions
+## Score missions
 
 | Mission | Points |
 |---------|--------|
@@ -92,4 +92,4 @@
 
 ---
 
-> ✅ **Terminé ?** Passe au [checkpoint](./checkpoint.md).
+> **Terminé ?** Passe au [checkpoint](./checkpoint.md).

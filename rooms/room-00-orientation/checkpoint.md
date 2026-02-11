@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 00 (Orientation)
+# Checkpoint — Room 00 (Orientation)
 
 Valide tes acquis avant de passer à la Room 01.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 Réponds mentalement ou par écrit. Les réponses sont dans le README et les docs.
 
@@ -19,7 +19,7 @@ Réponds mentalement ou par écrit. Les réponses sont dans le README et les doc
 **5.** Que contient le checkpoint d'une room ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. Le DevOps, c'est un ensemble de pratiques pour que les développeurs et les opérationnels travaillent ensemble, plus vite, avec moins d'erreurs. En résumé : écrire du code → le tester → le livrer → le surveiller, de manière fluide et automatisée.
 2. 2 points.
@@ -31,7 +31,7 @@ Réponds mentalement ou par écrit. Les réponses sont dans le README et les doc
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Ouvre [PROGRESS.md](../../PROGRESS.md) et coche la première case de la section Room 00.
 
@@ -45,7 +45,7 @@ Remplace `[ ]` par `[x]` pour indiquer que tu as lu le README.
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -54,4 +54,4 @@ Remplace `[ ]` par `[x]` pour indiquer que tu as lu le README.
 
 ---
 
-> 🎉 **Bravo !** Tu peux passer à la [Room 01 — Contrôle de version](../room-01-version-control/README.md).
+> **Bravo !** Tu peux passer à la [Room 01 — Contrôle de version](../room-01-version-control/README.md).

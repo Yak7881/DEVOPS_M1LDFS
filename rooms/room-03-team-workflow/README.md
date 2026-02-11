@@ -1,28 +1,28 @@
-# 🚪 Room 03 — Travail en équipe (Travailler en équipe)
+# Room 03 — Travail en équipe (Travailler en équipe)
 
 Tu sais utiliser Git et collaborer. Maintenant, tu vas apprendre **comment une équipe de dev organise son travail**.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Comment une équipe de dev répartit le travail et pousse le code proprement.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 En entreprise, il y a des règles : nommage des branches, messages de commit, PR, revue de code. Les suivre évite le chaos.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Un dev prend une **issue** ("Bug: le titre ne s'affiche pas"). Il crée une branche `fix/bug-titre-accueil`, code, ouvre une **PR**. Un collègue fait la **review** et approuve. On merge. Le code est livré.
 
 ---
 
-## 📚 Les termes à connaître
+## Les termes à connaître
 
 | Terme | Définition courte |
 |-------|-------------------|
@@ -34,7 +34,7 @@ Un dev prend une **issue** ("Bug: le titre ne s'affiche pas"). Il crée une bran
 
 ---
 
-## 📖 Documents complémentaires
+## Documents complémentaires
 
 - [Workflow complet : de 0 à PR mergée](../../docs/team-workflow-0-to-merge.md)
 - [Rôles dans une équipe de dev](../../docs/roles-in-a-dev-team.md)
@@ -43,16 +43,16 @@ Un dev prend une **issue** ("Bug: le titre ne s'affiche pas"). Il crée une bran
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

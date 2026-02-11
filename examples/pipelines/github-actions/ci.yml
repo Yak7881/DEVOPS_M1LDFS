@@ -1,11 +1,11 @@
 # =============================================================================
-# 📘 Pipeline GitHub Actions — Version commentée pour apprendre
+# Pipeline GitHub Actions — Version commentée pour apprendre
 # =============================================================================
 #
 # Ce fichier est une copie pédagogique du pipeline réel (.github/workflows/ci.yml).
 # Chaque ligne est expliquée pour que tu comprennes ce qui se passe.
 #
-# 💡 Ce fichier ne s'exécute PAS (il n'est pas dans .github/workflows/).
+# Ce fichier ne s'exécute PAS (il n'est pas dans .github/workflows/).
 #     C'est un support d'apprentissage.
 # =============================================================================
 
@@ -19,10 +19,10 @@ name: CI — DevOps Rooms
 on:
   push:
     branches: [main]
-    # ➡️ Quand quelqu'un pousse du code directement sur la branche main
+    # Quand quelqu'un pousse du code directement sur la branche main
   pull_request:
     branches: [main]
-    # ➡️ Quand quelqu'un ouvre ou met à jour une PR vers main
+    # Quand quelqu'un ouvre ou met à jour une PR vers main
 
 # --- JOBS ---
 # Un job est un ensemble d'étapes qui s'exécutent sur une machine.
@@ -50,7 +50,7 @@ jobs:
 
       # ÉTAPE 2 : Vérifier que les fichiers importants existent
       # "run" = exécuter des commandes shell (bash)
-      # Si une commande échoue (exit 1), le pipeline passe en ROUGE ❌
+      # Si une commande échoue (exit 1), le pipeline passe en ROUGE
       - name: Vérifier les fichiers obligatoires
         run: |
           echo "=== Vérification des fichiers ==="
@@ -59,22 +59,22 @@ jobs:
           # On vérifie chaque fichier un par un
           for f in README.md LICENSE PROGRESS.md docs/START-HERE.md docs/glossary.md; do
             if [ -f "$f" ]; then
-              echo "✅ $f existe"
+              echo "$f existe"
             else
-              echo "❌ $f manquant !"
+              echo "$f manquant !"
               ERREURS=$((ERREURS + 1))
             fi
           done
 
           # Si au moins un fichier manque, on fait échouer le pipeline
           if [ $ERREURS -gt 0 ]; then
-            echo "🚨 Il manque $ERREURS fichier(s)."
+            echo "Il manque $ERREURS fichier(s)."
             exit 1
             # exit 1 = "il y a une erreur" → le pipeline devient rouge
           fi
 
-          echo "🎉 Tout est bon !"
-          # Si on arrive ici, tout est vert ✅
+          echo "Tout est bon !"
+          # Si on arrive ici, tout est vert
 
       # ÉTAPE 3 : Vérifier que les rooms ont un README
       - name: Vérifier les rooms
@@ -83,13 +83,13 @@ jobs:
           for i in 00 01 02 03 04 05 06 07 08 09 10 11; do
             ROOM="rooms/room-$i-*/README.md"
             if ls $ROOM 1>/dev/null 2>&1; then
-              echo "✅ Room $i OK"
+              echo "Room $i OK"
             else
-              echo "❌ Room $i : pas de README"
+              echo "Room $i : pas de README"
               exit 1
             fi
           done
-          echo "🎉 Toutes les rooms sont complètes."
+          echo "Toutes les rooms sont complètes."
 
       # ÉTAPE 4 : Vérifier que les fichiers markdown ne sont pas vides
       - name: Vérifier le contenu markdown
@@ -100,19 +100,19 @@ jobs:
           for f in $(find . -name "*.md" -not -path "./.git/*"); do
             TOTAL=$((TOTAL + 1))
             if [ ! -s "$f" ]; then
-              echo "❌ Fichier vide : $f"
+              echo "Fichier vide : $f"
               VIDES=$((VIDES + 1))
             fi
           done
-          echo "📄 $TOTAL fichiers markdown vérifiés."
+          echo "$TOTAL fichiers markdown vérifiés."
           if [ $VIDES -gt 0 ]; then
-            echo "🚨 $VIDES fichier(s) vide(s) !"
+            echo "$VIDES fichier(s) vide(s) !"
             exit 1
           fi
-          echo "🎉 Aucun fichier vide."
+          echo "Aucun fichier vide."
 
 # =============================================================================
-# 📌 RÉSUMÉ
+# RÉSUMÉ
 #
 # Ce pipeline fait 4 choses :
 # 1. Récupère le code (checkout)
@@ -120,8 +120,8 @@ jobs:
 # 3. Vérifie que chaque room a un README
 # 4. Vérifie que les fichiers markdown ne sont pas vides
 #
-# Si tout est OK → vert ✅ (le code peut être mergé)
-# Si quelque chose manque → rouge ❌ (il faut corriger avant de merger)
+# Si tout est OK → vert (le code peut être mergé)
+# Si quelque chose manque → rouge (il faut corriger avant de merger)
 #
-# 🔗 Le vrai pipeline est dans : .github/workflows/ci.yml
+# Le vrai pipeline est dans : .github/workflows/ci.yml
 # =============================================================================

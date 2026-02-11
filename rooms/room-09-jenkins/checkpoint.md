@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 09 (Jenkins)
+# Checkpoint — Room 09 (Jenkins)
 
 Valide tes acquis avant de passer à la Room 10.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** Qu'est-ce qu'un **Jenkinsfile** ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 10.
 **5.** Pourquoi Jenkins est-il encore utilisé dans beaucoup d'entreprises ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. Un Jenkinsfile est un fichier dans le repo qui décrit les étapes du pipeline (build, test, deploy).
 2. Un Jenkinsfile est écrit en Groovy.
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 10.
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Écrire un **Jenkinsfile minimal** avec 2 stages.
 
@@ -37,7 +37,7 @@ Valide tes acquis avant de passer à la Room 10.
 1. **Verify** : afficher "Vérification en cours..."
 2. **Package** : afficher "Empaquetage en cours..."
 
-> 💡 Tu peux t'inspirer du [Jenkinsfile du repo](../../examples/pipelines/jenkins/Jenkinsfile) qui a 3 stages : Prepare, Check, Package.
+> Tu peux t'inspirer du [Jenkinsfile du repo](../../examples/pipelines/jenkins/Jenkinsfile) qui a 3 stages : Prepare, Check, Package.
 
 **Structure attendue :**
 
@@ -63,7 +63,7 @@ pipeline {
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -72,4 +72,4 @@ pipeline {
 
 ---
 
-> 🎉 **Bravo !** Room suivante → [Room 10 — Incidents](../room-10-incident-response/README.md)
+> **Bravo !** Room suivante → [Room 10 — Incidents](../room-10-incident-response/README.md)

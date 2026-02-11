@@ -1,28 +1,28 @@
-# 🚪 Room 09 — Jenkins
+# Room 09 — Jenkins
 
 Tu vas découvrir **un outil classique d'automatisation de pipelines**.
 
 ---
 
-## 📖 Ce que tu apprends
+## Ce que tu apprends
 
 Découvrir Jenkins, un outil de pipeline largement utilisé dans l'industrie.
 
 ---
 
-## 🎯 Pourquoi c'est utile ?
+## Pourquoi c'est utile ?
 
 Jenkins est utilisé par des milliers d'entreprises. Comprendre son fonctionnement est un vrai atout sur ton CV.
 
 ---
 
-## 💡 Exemple concret
+## Exemple concret
 
 Un **Jenkinsfile** dans un repo déclenche automatiquement le build et les tests à chaque push. Personne n'a besoin de lancer les commandes à la main.
 
 ---
 
-## 📚 Les termes à connaître
+## Les termes à connaître
 
 | Terme | Définition courte |
 |-------|-------------------|
@@ -35,7 +35,7 @@ Un **Jenkinsfile** dans un repo déclenche automatiquement le build et les tests
 
 ---
 
-## 📖 Ressources
+## Ressources
 
 - [Jenkinsfile d'exemple](../../examples/pipelines/jenkins/Jenkinsfile)
 - [Pipeline expliqué pas à pas](../../examples/pipelines/explain/pipeline-step-by-step.md)
@@ -43,22 +43,22 @@ Un **Jenkinsfile** dans un repo déclenche automatiquement le build et les tests
 
 ---
 
-## 💡 Note importante
+## Note importante
 
 Tu n'as **pas besoin d'installer Jenkins** pour apprendre dans cette room. Tu peux lire le code et comprendre la logique.
 
 ---
 
-## 🎯 Les missions
+## Les missions
 
 Fais les missions dans [missions.md](./missions.md).
 
 ---
 
-## ✅ Le checkpoint
+## Le checkpoint
 
 Quand tu as terminé les missions, passe le [checkpoint](./checkpoint.md).
 
 ---
 
-> 🎯 **Prêt ?** Ouvre [missions.md](./missions.md) et commence !
+> **Prêt ?** Ouvre [missions.md](./missions.md) et commence !

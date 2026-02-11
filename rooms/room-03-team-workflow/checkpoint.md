@@ -1,10 +1,10 @@
-# ✅ Checkpoint — Room 03 (Travail en équipe)
+# Checkpoint — Room 03 (Travail en équipe)
 
 Valide tes acquis avant de passer à la Room 04.
 
 ---
 
-## 📝 Mini-quiz (5 questions)
+## Mini-quiz (5 questions)
 
 **1.** Qu'est-ce qu'une **issue** dans GitHub ?
 
@@ -17,7 +17,7 @@ Valide tes acquis avant de passer à la Room 04.
 **5.** Dans quel ordre se déroule le workflow : issue → branche → PR → merge ?
 
 <details>
-<summary>📝 Voir les réponses</summary>
+<summary>Voir les réponses</summary>
 
 1. Un ticket dans GitHub pour signaler un bug, proposer une idée ou poser une question.
 2. Le préfixe `fix/` (ex : `fix/bug-titre-accueil`).
@@ -29,7 +29,7 @@ Valide tes acquis avant de passer à la Room 04.
 
 ---
 
-## 🎯 Mini-tâche
+## Mini-tâche
 
 **Objectif :** Écrire une description complète de PR pour une correction de bug fictive.
 
@@ -61,7 +61,7 @@ Les adresses avec un tiret (ex: jean-pierre@mail.com) étaient refusées à tort
 
 ---
 
-## 📊 Score
+## Score
 
 - Quiz : ___ / 5 points
 - Tâche accomplie : 5 points
@@ -70,4 +70,4 @@ Les adresses avec un tiret (ex: jean-pierre@mail.com) étaient refusées à tort
 
 ---
 
-> 🎉 **Bravo !** Tu peux passer à la room suivante → [Room 04 — GitHub GUI](../room-04-github-gui/README.md)
+> **Bravo !** Tu peux passer à la room suivante → [Room 04 — GitHub GUI](../room-04-github-gui/README.md)
